@@ -1,0 +1,10 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.main-container {
+  background-image: url(../public/img/background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}

@@ -1,0 +1,52 @@
+footer {
+  min-height: 400px;
+  background: linear-gradient(
+    to bottom,
+    rgba(6, 31, 51, 0.6) 0%,
+    rgba(6, 31, 51, 0.6) 1%,
+    rgba(6, 31, 51, 1) 99%,
+    rgba(6, 31, 51, 1) 100%
+  );
+  color: rgba(255, 255, 255, 0.6);
+  font-family: 'Play', Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+h5 {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: rgb(197, 197, 197);
+}
+.contact {
+  color: #ffff;
+  list-style: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+.posts li {
+  color: rgba(255, 255, 255, 0.6);
+  list-style: none;
+  border-bottom: 1px solid rgb(196, 194, 194, 0.1);
+}
+.posts li a {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.btn-primary,
+.btn-primary:hover {
+  background-color: #fab702;
+  border: #fab702;
+  border-radius: 0 5px 5px 0;
+  height: 38px;
+}
+.input-group input {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-color: rgba(0, 0, 0, 0.25);
+}
+.input-group input:focus {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.social a {
+  margin-right: 5px;
+}
+.appstore img {
+  width: 100px;
+}

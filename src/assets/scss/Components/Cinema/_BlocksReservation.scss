@@ -1,0 +1,43 @@
+.movie-container {
+  margin: 20px 0;
+}
+.movie-container select {
+  background-color: #fff;
+  border: 0;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-left: 10px;
+  padding: 5px 15px 5px 15px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.seat {
+  background-color: #444451;
+  height: 20px;
+  width: 30px;
+  margin: 3px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  position: relative;
+}
+.seat:hover {
+  background-color: #5a5a68;
+}
+input[type='checkbox']:checked + .seat {
+  background-color: aliceblue;
+}
+#occupied {
+  background-color: rgb(49, 0, 185);
+}
+.seat.occupied {
+  background-color: rgb(49, 0, 185);
+}
+.screen {
+  background-color: #fff;
+  height: 70px;
+  width: 100%;
+  margin: auto;
+  transform: rotateX(-45deg);
+  box-shadow: 0 3px 10px rgba(255, 255, 255, 0.75);
+}

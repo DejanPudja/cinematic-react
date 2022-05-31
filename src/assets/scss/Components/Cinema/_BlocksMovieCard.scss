@@ -1,0 +1,79 @@
+.box {
+  background-color: rgb(255, 255, 255, 0.1);
+  min-height: 370px;
+  font-family: 'Play', Arial, Helvetica, sans-serif;
+  color: #ffff;
+  margin: auto;
+}
+.img {
+  transform: scale(0.8);
+}
+.image-field {
+  width: 100%;
+  max-height: 370px;
+}
+.movie-image {
+  margin: auto;
+  height: 100%;
+  transform: scale(0.9);
+}
+.text-field {
+  width: 100%;
+}
+.movie-title {
+  font-family: 'Play', Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: -2px;
+  color: #ffff;
+  font-size: 18px;
+}
+.decription {
+  list-style: none;
+}
+.info {
+  font-weight: bold;
+  font-size: 14px;
+}
+span {
+  font-weight: normal;
+}
+.btn-detail {
+  border: 2px solid #777;
+  background-color: rgb(36, 36, 36);
+  color: #ffff;
+  font-size: 18px;
+  cursor: pointer;
+}
+.btn-detail:hover {
+  background-color: rgb(36, 36, 36, 0.5);
+}
+hr {
+  background-image: -webkit-linear-gradient(
+    left,
+    transparent,
+    rgba(255, 255, 255, 0.2),
+    transparent
+  );
+}
+
+@media only screen and (max-width: 1160px) {
+  .image-field {
+    margin-right: 40px;
+  }
+}
+.projections {
+  display: inline-block;
+  background-color: #212121;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.projections:hover {
+  background-color: rgb(1, 1, 1, 0.5);
+  cursor: pointer;
+}
+.yellow {
+  color: rgb(255, 208, 0);
+  font-weight: bold;
+}

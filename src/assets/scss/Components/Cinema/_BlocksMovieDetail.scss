@@ -1,0 +1,44 @@
+.movie-detail-box {
+  margin: auto;
+  color: #ffff;
+}
+.play-btn {
+  float: right;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  border: 1px solid #ffff;
+  background-color: rgb(150, 150, 150);
+  display: grid;
+  place-content: center;
+  color: #ffff;
+  cursor: pointer;
+}
+.trailer {
+  margin-bottom: 80px;
+}
+.projection-date {
+  color: #ffff;
+
+  margin-right: 2px;
+}
+.projection-time {
+  border-top: 2px solid rgb(255, 208, 0);
+  background-color: rgb(255, 255, 255, 0.1);
+  min-height: 100px;
+  color: #ffff;
+}
+.projection-time a {
+  color: #ffff;
+}
+.date-field {
+  background-color: rgb(255, 255, 255, 0.1);
+}
+.date-field button {
+  background: none;
+  border: none;
+  color: #ffff;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}

@@ -1,0 +1,84 @@
+.parallax {
+  background-image: url(../../../../../public/img/paralax.jpg);
+  background-position: 50% 1px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 570px;
+}
+.overlay {
+  min-height: 500px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.btn-fields {
+  padding: 8px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 20px 20px 0 0;
+  cursor: pointer;
+}
+.btn-home-field a {
+  text-decoration: none;
+  color: #ffff;
+}
+.box-movies {
+  border-top: 3px solid #fab702;
+  min-height: 350px;
+  padding: 0 50px;
+}
+.card-movie {
+  box-shadow: 0.1px 0.1px 1px 1px silver;
+  height: 100%;
+}
+.card-movie-image {
+  width: 180px;
+  height: 300px;
+  margin: auto;
+}
+.card-title {
+  font-family: 'Play', Arial, Helvetica, sans-serif;
+  color: #ffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+  height: 70px;
+}
+.card-btn {
+  padding: 5px 15px;
+  border-radius: 4px;
+  font-size: 15px;
+}
+.card-btn-bottom {
+  padding: 8px 20px;
+  font-size: 18px;
+}
+.card-btn-bottom a:active {
+  text-decoration: none;
+  color: #ffff;
+}
+.news-caption {
+  color: #ffff;
+  text-transform: uppercase;
+}
+.news-box {
+  border-top: 1px solid silver;
+  min-height: 500px;
+}
+.news-img {
+  width: 100%;
+}
+.news-title a {
+  text-decoration: none;
+  color: #ffff;
+  text-transform: normal;
+  font-size: 19px;
+  font-weight: bold;
+}
+.date {
+  color: rgb(160, 160, 160);
+}
+.news-description {
+  color: #ffff;
+  font-size: 14px;
+  height: 100px;
+}
